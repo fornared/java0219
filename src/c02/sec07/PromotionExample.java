@@ -1,4 +1,4 @@
-package c02.lecture.sec07;
+package c02.sec07;
 
 public class PromotionExample {
     public static void main(String[] args) {
