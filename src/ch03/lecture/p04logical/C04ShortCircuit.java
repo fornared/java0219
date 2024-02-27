@@ -2,7 +2,7 @@ package ch03.lecture.p04logical;
 
 public class C04ShortCircuit {
     public static void main(String[] args) {
-        // 단락 (short-circuit evaluation)
+        // 단락평가 (short-circuit evaluation)
 
         // && , & : 둘 모두 true일 경우 true
         // && : 앞의 피연산자가 false 이면 뒤의 피연산자를 평가하지 않고 바로 false를 반환
