@@ -25,7 +25,7 @@ class C05MyClass {
     }
 
     void method2(int[] arr) {
-        arr = new int[]{3, 5, 7};
+        arr = new int[]{-3, -5, -7};
         System.out.println(Arrays.toString(arr));
     }
 }

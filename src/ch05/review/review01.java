@@ -16,10 +16,32 @@ public class review01 {
         for (int i : arr1) {
             System.out.print(i + ",");
         }
+        System.out.println();
+
 
         /*
             [배열의 선언]
+        타입[] 변수;
+        배열의 선언과 할당을 동시에 할 땐 'new int[]' 생략 가능
          */
+        int[] dec1;
+        dec1 = new int[]{5, 3};
+        int[] dec2 = new int[]{5, 3, 4};
+        int[] dec3 = {5, 3, 4};
+        int[] dec4;  // dec4 = {5, 3, 4};   error
 
+        // 배열의 길이만 정의
+        // 각 원소는 초기값{0, false, null, ...}으로 정의됨 (p.172)
+        int[] dec5 = new int[3];
+        for (int i : dec5) {
+            System.out.print(STR."\{i},");
+        }
+        System.out.println();
+        dec5[0] = 1;
+        dec5[1] = 2;
+        dec5[2] = 3;
+        for (int i : dec5) {
+            System.out.print(STR."\{i},");
+        }
     }
 }
