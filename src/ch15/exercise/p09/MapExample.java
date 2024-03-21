@@ -35,7 +35,8 @@ public class MapExample {
 
         // 1748 1512 2006 2206 2363
         //  [review]
-        // ArrayList HashSet HashMap
-        // Stack Queue LinkedList
+        // 1. ArrayList HashSet HashMap
+        // 2. Stack Queue LinkedList
+        // 3. Comparator Comparable TreeSet TreeMap
     }
 }
