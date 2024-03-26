@@ -1,0 +1,15 @@
+package ch14.letcture.p01thread;
+
+public class C07Runnable {
+    public static void main(String[] args) {
+        Thread t = new Thread(() -> {
+            for (int i = 0; i < 30000; i++) {
+                System.out.println(i);
+            }
+        });
+        t.start();
+        for (int i = 0; i < 30000; i++) {
+            System.err.println(i);
+        }
+    }
+}
