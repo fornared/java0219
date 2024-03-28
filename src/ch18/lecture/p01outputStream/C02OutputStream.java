@@ -1,4 +1,4 @@
-package ch18.letcture.p01outputStream;
+package ch18.lecture.p01outputStream;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
